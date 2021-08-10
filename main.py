@@ -26,9 +26,10 @@ def take_command():
             if 'alexa' in command:
                 command = command.replace('alexa', '')
                 print(command)
+        return command        
     except:
         pass
-    return command
+    
 
 
 def run_alexa():
